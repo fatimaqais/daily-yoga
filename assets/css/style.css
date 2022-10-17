@@ -1,3 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Sintony&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 body {
-    font-family: Arial;
+    font-family: Poppins, sans-serif;
+    background-color: #e8e8e8;
+}
+
+/* Heading and logo */
+
+h1, h2 {
+    font-family: Sintony, sans-serif;
+    color: #bd897e;
+}
+
+#logo {
+    float: left;
+    margin: 10px 0 10px 50px;
+    font-size: 250%;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 130%;
+    float: right;
+}
+
+#logo, #menu {
+    line-height: 40px;
+}
+
+#menu li {
+    list-style-type: none;
+    float: right;
+    margin: 15px;
+    font-weight: bold;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #bd897e;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #95a78d;
+}
+.active {
+    border: 2px solid #95a78d;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+    padding: 5px;
 }

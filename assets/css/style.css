@@ -14,7 +14,7 @@ body {
 
 h1, h2 {
     font-family: Sintony, sans-serif;
-    color: #bd897e;
+    color: #d88f81;
 }
 
 #logo {
@@ -66,4 +66,19 @@ h1, h2 {
     overflow: hidden;
     position: auto fixed;
     background-attachment: fixed;
+}
+
+#cover-text {
+    color: bisque;
+    background-color: rgba(65, 66, 64, 0.8);
+    width: 350px;
+    height: fit-content;
+
+    padding: 20px 10px 20px 10px;
+    margin: 0 0 0 32%;
+
+    top: 100px;
+    bottom: 200px;
+    border-radius: 5px;
+    position: absolute;
 }

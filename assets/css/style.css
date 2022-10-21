@@ -141,3 +141,18 @@ hr {
     margin: 2px 0;
     border-top: 2px solid #d88f81;
 }
+
+/* testimonial section */
+
+#testimonial {
+    position: relative;
+    height: 600px;
+    background-color: #95a78d;
+}
+
+.testimonial-style {
+    height: 200px;
+    width: 100%;
+    background-image: url('');
+    background-color: #d88f81;
+}

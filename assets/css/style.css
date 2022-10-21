@@ -13,8 +13,7 @@ body {
 
 /* Heading and logo */
 
-h1,
-h2 {
+h1, h2 {
     font-family: Sintony, sans-serif;
     color: #d88f81;
 }
@@ -104,6 +103,10 @@ h2 {
     margin: 20px 0;
 }
 
+#about-text {
+    width: 100%;
+}
+
 #about-info {
     padding-top: 30px;
     padding-right: 5%;
@@ -112,7 +115,7 @@ h2 {
 }
 
 
-#info-image>img {
+#info-image > img {
     width: 300px;
     height: 90%;
 
@@ -127,7 +130,7 @@ h2 {
     border-radius: 5px;
 }
 
-h3 {
+#about h3 {
     font-size: 24px;
     color:#3a4336;
 }
@@ -146,13 +149,53 @@ hr {
 
 #testimonial {
     position: relative;
-    height: 600px;
-    background-color: #95a78d;
+    background: url('../images/testimonial.jpg') no-repeat center center;
+    opacity: 0.9;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+
+    background-attachment: fixed;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .testimonial-style {
-    height: 200px;
-    width: 100%;
-    background-image: url('');
-    background-color: #d88f81;
+    color: bisque;
+    font-size: 20px;
+    text-align: center;
+    width: 95%;
+    height: auto;
+
+    position: relative;
+    top: 5%;
+    bottom: 5%;
+
+    margin: 1%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* footer style from love running*/
+
+footer {
+    height: 10%;
+    text-align: center;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display:inline;
+}
+
+.social-networks i {
+    color: #d88f81;
+    font-size: 40px;
+    margin: 15px;
+    padding: 15px;
 }

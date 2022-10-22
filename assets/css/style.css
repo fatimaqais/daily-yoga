@@ -142,7 +142,7 @@ p{
 }
 
 hr {
-    width: 50%;
+    width: 100%;
     margin: 2px 0;
     border-top: 2px solid #d88f81;
 }
@@ -178,6 +178,41 @@ hr {
     margin: 1%;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* yoga poses section */
+/* videos form pexels.com */
+#yoga-section {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    margin: 10px 30px;
+}
+
+.left-video {
+    float: left;
+    width:45%;
+    height: auto;
+    margin: 30px;
+}
+
+video{
+    width: 90%;
+    height: auto;
+    display: block;
+    
+    margin: 2px;
+    border:#d88f81 solid 5px;
+    border-width: auto; 
+    border-radius: 5px;
+}
+
+.right-video {
+    float: right;
+    width: 45%;
+    height: auto;
+    margin: 30px;
 }
 
 /* footer style from love running*/

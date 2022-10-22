@@ -188,6 +188,11 @@ hr {
     position: relative;
     text-align: center;
     margin: 10px 30px;
+    display:inline-block;
+}
+
+.video-row {
+    display:inline-block;
 }
 
 .left-video {

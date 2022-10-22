@@ -31,8 +31,7 @@ h1, h2 {
     float: right;
 }
 
-#logo,
-#menu {
+#logo, #menu {
     line-height: 40px;
 }
 

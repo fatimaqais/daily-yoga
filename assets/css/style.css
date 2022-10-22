@@ -61,11 +61,14 @@ h1, h2 {
 /* main image and cover text*/
 
 #image-section {
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
     position: relative;
 }
 
 #main-image {
-    background: url('../images/main-image.jpg') no-repeat center;
+    background: url('../images/main-image.jpg') no-repeat center center;
     background-size: cover;
     height: 450px;
     width: 100%;

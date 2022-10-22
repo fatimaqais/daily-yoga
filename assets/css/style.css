@@ -161,7 +161,6 @@ hr {
     background-attachment: fixed;
 
     margin-top: 5%;
-    margin-bottom: 5%;
 }
 
 .testimonial-style {
@@ -183,7 +182,6 @@ hr {
 /* yoga poses section */
 /* videos form pexels.com */
 #yoga-section {
-    width: 100%;
     height: auto;
     position: relative;
     text-align: center;
@@ -222,7 +220,7 @@ video{
 /* footer style from love running*/
 
 footer {
-    height: 10%;
+    height: 5%;
     text-align: center;
 }
 

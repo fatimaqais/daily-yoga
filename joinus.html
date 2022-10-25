@@ -22,7 +22,8 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="joinus.html" class="active" aria-label="Sign up page for events, classes and newsletter">Join Us</a>
+                    <a href="joinus.html" class="active"
+                        aria-label="Sign up page for events, classes and newsletter">Join Us</a>
                 </li>
                 <li>
                     <a href="yogaposes.html" aria-label="Yoga poses example page">Yoga Poses</a>
@@ -47,25 +48,37 @@
     </section>
 
     <!-- form section-->
-    <section>
-        <form action="" method="post">
-            <h2>Our Yoga Classes Start Soon!</h2>
-            <h3>Join our newsletter to recieve yoga inspiration and class updates directly to your mailbox.</h3>
-            <label for="full-name">Full Name</label>
-            <input type="text" id="full-name" required>
-            <br>
-            <label for="email">Email</label>
-            <input type="email" id="email">
-            <br>
-            <label for="private">One-to-One Session</label>
-            <input type="radio" id="private" value="private" name="workout-type">
-            <label for="group">Group Session</label>
-            <input type="radio" id="group" value="group" name="workout-type">
-            <label for="both">Both</label>
-            <input type="radio" id="both" value="both" name="workout-type" required>
-            <br>
-            <input type="submit" value="Join Now!">
-        </form>
+    <section class="form-section">
+        <h2>Our Yoga Classes Start Soon!</h2>
+        <div class="form-image">
+            <form action="" method="post" class="form-style">
+                <h3 class="label-style">Join our newsletter to recieve yoga inspiration and class updates directly
+                    to
+                    your mailbox.</h3>
+                <label for="full-name" class="label-style">Name</label>
+                <br>
+                <input type="text" id="full-name" class="input-style" required>
+                <br>
+                <label for="email" class="label-style">Email</label>
+                <br>
+                <input type="email" id="email" class="input-style" required>
+                <br>
+                <span>
+                    <label for="private" class="label-style">One-to-One Session</label>
+                    <input type="radio" id="private" value="private" name="workout-type">
+                </span>
+                <span>
+                    <label for="group" class="label-style">Group Session</label>
+                    <input type="radio" id="group" value="group" name="workout-type">
+                </span>
+                <span>
+                    <label for="both" class="label-style">Both</label>
+                    <input type="radio" id="both" value="both" name="workout-type" required>
+                </span>
+                <br>
+                <input type="submit" value="Join Now!" class="join-button">
+            </form>
+        </div>
     </section>
 
     <!-- footer idea taken from Love Running -->

@@ -107,13 +107,15 @@ h1, h2 {
 
 #about-text {
     width: 100%;
+    height: auto;
 }
 
 #about-info {
     padding-top: 30px;
     padding-right: 5%;
-    width: 55%;
-    float: right;
+    width: 50%;
+    float: left;
+    margin: 50px 0px 10px 50px;
 }
 
 
@@ -126,7 +128,7 @@ h1, h2 {
     flex-flow: wrap;
 
     float: left;
-    margin-top: 25px;
+    margin-top: 80px;
     margin-left: 10%;
     border: #d88f81 solid 5px;
     border-radius: 5px;
@@ -190,7 +192,9 @@ hr {
 }
 
 .video-row {
-    display:inline-block;
+    display:flex;
+    text-align:center;
+    justify-content: center;
 }
 
 .left-video {
@@ -257,7 +261,7 @@ video{
     background: rgba(65, 64, 68, 0.8);
     border: #d88f81 solid 2px;
     border-radius: 2px;
-    width: 320px;
+    width: 50%;
     height: 25px;
     color: #e8e8e8;
     font-size: 100%;
@@ -310,4 +314,38 @@ footer {
     font-size: 40px;
     margin: 15px;
     padding: 15px;
+}
+
+
+/* for medium screen size from 1000px and down */
+@media screen and (max-width: 1000px) {
+
+    /* about section */
+    #info-image {
+        width: 90%;
+        text-align:center;
+    }
+
+    #info-image > img {
+        margin-top: 25px;
+        width: 60%;
+        position:relative;
+        left: 15%;
+        top: 10%;
+    }
+
+    #about-info {
+        width: 90%;
+    }
+
+    /* testimonial section*/
+
+    #testimonial {
+        height: 100%;
+    }
+}
+
+/* for smaller screen sizes from 750px and below */
+@media screen and (max-width: 750px) {
+    
 }

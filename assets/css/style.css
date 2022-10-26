@@ -82,7 +82,8 @@ h2 {
 #cover-text {
     color: bisque;
     background-color: rgba(65, 66, 64, 0.8);
-    width: 350px;
+    width: 40%;
+    min-width: fit-content;
     height: fit-content;
 
     padding: 20px 10px 20px 10px;
@@ -257,10 +258,11 @@ video {
     flex-direction: column;
 }
 
-.form-style > h3 {
-    margin:0 20px 40px 20px;
+.form-style>h3 {
+    margin: 0 20px 40px 20px;
     font-size: 150%;
 }
+
 .label-style {
     color: #000000;
     font-weight: 600;
@@ -357,8 +359,27 @@ footer {
     }
 }
 
-/* for medium screen sizes from 750px and below */
-@media screen and (max-width: 750px) {
+/* for medium screen sizes from 780px and below */
+@media screen and (max-width: 780px) {
+
+    /* header styling for all pages */
+    #logo {
+        display:block;
+    }
+    #menu {
+        float: left;
+        clear: left;
+        margin-left: 25px;
+        font-size: 100%;
+    }
+
+
+}
+
+/* for medium screen sizes from 715px and below */
+@media screen and (max-width: 715px) {
+
+    /* yoga poses page */
     .video-row {
         display: flex;
         align-items: center;
@@ -377,8 +398,20 @@ footer {
 
 }
 
-/* for small screen sizes from 400px and below*/
-@media screen and (max-width: 400px) {
+/* for small screen sizes from 460px and below*/
+@media screen and (max-width: 460px) {
+
+    #logo {
+        display: block;
+        align-items: center;
+        margin: 10px;
+    }
+    #menu li {
+        margin: 10px;
+        clear: left;
+    }
+
+    /* footer*/
     .social-networks i {
         font-size: 120%;
     }

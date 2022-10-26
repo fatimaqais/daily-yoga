@@ -183,6 +183,23 @@ hr {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+/* scroll to the top of the page button */
+
+.go-to-top {
+    position: fixed;
+    background-color: #d88f81;
+    opacity: 0.8;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+
+    text-align: center;
+    line-height: 50px;
+    color: beige;
+}
+
 /* yoga poses section */
 /* videos form pexels.com */
 #yoga-section {
@@ -364,8 +381,9 @@ footer {
 
     /* header styling for all pages */
     #logo {
-        display:block;
+        display: block;
     }
+
     #menu {
         float: left;
         clear: left;
@@ -406,6 +424,7 @@ footer {
         align-items: center;
         margin: 10px;
     }
+
     #menu li {
         margin: 10px;
         clear: left;

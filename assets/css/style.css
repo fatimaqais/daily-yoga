@@ -117,7 +117,7 @@ h2 {
     padding-right: 5%;
     width: 50%;
     float: left;
-    margin: 50px 0px 10px 50px;
+    margin: 40px 0px 20px 20px;
 }
 
 
@@ -171,7 +171,6 @@ hr {
     color: bisque;
     font-size: 20px;
     text-align: center;
-    width: 95%;
     height: auto;
 
     position: relative;
@@ -242,15 +241,26 @@ video {
     background-size: cover;
 
     width: 60%;
+    height: 60%;
     padding-top: 80px;
     padding-bottom: 80px;
     position: relative;
     left: 20%;
-    top: 10%;
+    top: 10px;
     border: #d88f81 solid 5px;
     border-radius: 5px
 }
 
+.form-style {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-style > h3 {
+    margin:0 20px 40px 20px;
+    font-size: 150%;
+}
 .label-style {
     color: #000000;
     font-weight: 600;
@@ -319,7 +329,7 @@ footer {
 }
 
 
-/* for medium screen size from 1000px and down */
+/* for large-medium screen size from 1000px and down */
 @media screen and (max-width: 1000px) {
 
     /* about section */
@@ -347,11 +357,29 @@ footer {
     }
 }
 
-/* for smaller screen sizes from 750px and below */
+/* for medium screen sizes from 750px and below */
 @media screen and (max-width: 750px) {
     .video-row {
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+
+    .left-video {
+        width: 90%;
+        height: auto;
+    }
+
+    .right-video {
+        width: 90%;
+        height: auto;
+    }
+
+}
+
+/* for small screen sizes from 400px and below*/
+@media screen and (max-width: 400px) {
+    .social-networks i {
+        font-size: 120%;
     }
 }

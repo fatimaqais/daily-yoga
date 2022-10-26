@@ -13,7 +13,8 @@ body {
 
 /* Heading and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Sintony, sans-serif;
     color: #d88f81;
 }
@@ -31,7 +32,8 @@ h1, h2 {
     float: right;
 }
 
-#logo, #menu {
+#logo,
+#menu {
     line-height: 40px;
 }
 
@@ -119,7 +121,7 @@ h1, h2 {
 }
 
 
-#info-image > img {
+#info-image>img {
     width: 300px;
     height: 90%;
 
@@ -136,10 +138,10 @@ h1, h2 {
 
 #about h3 {
     font-size: 24px;
-    color:#3a4336;
+    color: #3a4336;
 }
 
-p{
+p {
     font-weight: 200;
 }
 
@@ -188,29 +190,29 @@ hr {
     position: relative;
     text-align: center;
     margin: 10px 30px;
-    display:inline-block;
+    display: inline-block;
 }
 
 .video-row {
-    display:flex;
-    text-align:center;
+    display: flex;
+    text-align: center;
     justify-content: center;
 }
 
 .left-video {
     float: left;
-    width:45%;
+    width: 45%;
     height: auto;
     margin: 30px;
 }
 
-video{
+video {
     width: 90%;
     height: auto;
     display: block;
-    
+
     margin: 2px;
-    border:#d88f81 solid 5px;
+    border: #d88f81 solid 5px;
     border-radius: 5px;
 }
 
@@ -250,7 +252,7 @@ video{
 }
 
 .label-style {
-    color:#000000;
+    color: #000000;
     font-weight: 600;
     font-size: 20px;
     padding: 5px;
@@ -272,7 +274,7 @@ video{
 }
 
 form span {
-    display:inline-block;
+    display: inline-block;
 }
 
 .join-button {
@@ -280,7 +282,7 @@ form span {
     height: 40px;
 
     font-size: 100%;
-    color:#e8e8e8;
+    color: #e8e8e8;
     margin-top: 25px;
     background: rgba(65, 64, 68, 0.9);
     text-align: center;
@@ -290,7 +292,7 @@ form span {
 
 .join-button:hover {
     background: #d88f81;
-    color:#e8e8e8;
+    color: #e8e8e8;
     border-color: #e8e8e8;
 }
 
@@ -306,7 +308,7 @@ footer {
 }
 
 .social-networks li {
-    display:inline;
+    display: inline;
 }
 
 .social-networks i {
@@ -323,13 +325,13 @@ footer {
     /* about section */
     #info-image {
         width: 90%;
-        text-align:center;
+        text-align: center;
     }
 
-    #info-image > img {
+    #info-image>img {
         margin-top: 25px;
         width: 60%;
-        position:relative;
+        position: relative;
         left: 15%;
         top: 10%;
     }
@@ -347,5 +349,9 @@ footer {
 
 /* for smaller screen sizes from 750px and below */
 @media screen and (max-width: 750px) {
-    
+    .video-row {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }

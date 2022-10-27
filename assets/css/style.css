@@ -325,6 +325,39 @@ form span {
     border-color: #e8e8e8;
 }
 
+/* thank you page */
+
+#thankyou-section {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.message-style {
+    font-size: 20px;
+    margin: 0 50px;
+}
+
+#back-home-btn {
+    width: 150px;
+    height: 50px;
+
+    font-size: 100%;
+    color: #e8e8e8;
+    margin-top: 25px;
+    background: rgba(65, 64, 68, 0.9);
+    text-align: center;
+    border-radius: 2px;
+    border: #d88f81 solid 2px;
+}
+
+#back-home-btn:hover {
+    background: #d88f81;
+    color: #e8e8e8;
+    border-color: #e8e8e8;
+}
+
 /* footer style from love running*/
 
 footer {

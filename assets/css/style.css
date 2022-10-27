@@ -72,7 +72,7 @@ h2 {
 #main-image {
     background: url('../images/main-image.jpg') no-repeat center center;
     background-size: cover;
-    height: 450px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
 
@@ -367,6 +367,7 @@ footer {
 
 .social-networks {
     text-align: center;
+    font-size: 60%;
 }
 
 .social-networks li {
@@ -420,7 +421,6 @@ footer {
     #menu {
         float: left;
         clear: left;
-        margin-left: 25px;
         font-size: 100%;
     }
 
@@ -461,6 +461,7 @@ footer {
     #menu li {
         margin: 10px;
         clear: left;
+        font-size: 80%;
     }
 
     /* footer*/

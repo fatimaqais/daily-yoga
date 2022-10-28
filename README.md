@@ -9,6 +9,34 @@ The aim of the project is to build a responsive website using HTML and CSS.
 
 ![Mock up screenshot](documents/testing/responsive-mockup.png)
 
+## __UX and Design__
+
+### __User Stories__
+
+- As a user, I would like to see what yoga is and what it looks like which can be seen on the home page.
+- As a user, I would like to see what people think about the exercise and see some reviews.
+- As a user, I would like to see what yoga poses are like and would like to try them myself.
+- As a user, I would like to sign up for yoga classes and yoga related news and updates.
+
+### __Color Scheme__
+
+- The color scheme for this page was taken from [coolors](https://coolors.co/palette/fffaf5-95a78d-3a4336-d88f81).
+Some colors were adjusted accordingly to improve visibility.
+
+![coolors color palette](documents/testing/coolors.png)
+
+### __Typography__
+
+- The font for this page was taken from [google fonts](https://fonts.google.com/)
+    - The font sintony was used for headings whereas the body has the poppins font.
+
+![Sintony](documents/testing/sintony-font.png) 
+![Poppins](documents/testing/poppins-font.png)
+
+### __Wireframes__
+
+- To check out the wireframes for this project, [click here](/WIREFRAMES.md) 
+
 ## Features
 
 ### Common Features

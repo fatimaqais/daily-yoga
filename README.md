@@ -9,7 +9,7 @@ The aim of the project is to build a responsive website using HTML and CSS.
 
 ![Mock up screenshot](documents/testing/responsive-mockup.png)
 
-## __UX and Design__
+## __User Experience (UX) and Design__
 
 ### __User Stories__
 
@@ -37,7 +37,7 @@ Some colors were adjusted accordingly to improve visibility.
 
 - To check out the wireframes for this project, [click here](/WIREFRAMES.md) 
 
-## Features
+## __Features__
 
 ### Common Features
 
@@ -97,7 +97,22 @@ This page allows the user to join our yoga group and select if the wish to worko
 ### Features Left to Implement
 - I would like to add a pricing list page(subscription page) for users who wish to subscribe to a monthly or yearly yoga plan. 
 
-## Testing
+## __Technologies Used__
+
+### Languages Used
+
+- HTML and CSS were used to create this project.
+
+### Frameworks, Libraries & Programs Used
+
+- [Balsamiq](https://balsamiq.com/) was used to create the wireframes for this project.
+- [Git](https://git-scm.com/) was used for version control.
+- [Github](https://github.com/) was used to save and store for the website.
+- [Google Fonts](https://fonts.google.com/) was used to import the fonts used on the website.
+- [Font Awesome](https://fontawesome.com/) was used for the icons on this page.
+- [Flaticon](https://www.flaticon.com/) was used to find the icon for the title.
+
+## __Testing__
 
 ### User Testing
 
@@ -125,3 +140,9 @@ This page allows the user to join our yoga group and select if the wish to worko
 The website was tested for performance and accessibilty using Lighthouse on google chrome's developer tools.
 
 ![Lighthouse testing](documents/testing/lighthouse.png)
+
+## __Deployement__
+
+This website was deployed to GitHub Pages. The steps to deploy are:
+- Log in to git hub
+- Go to the setting for the repository

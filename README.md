@@ -149,3 +149,20 @@ This website was deployed to GitHub Pages. The steps to deploy are:
 - Select pages in left hand navigation menu.
 - From the source dropdown, select main branch and then press save.
 - The site will be deployed now. It may take a few minutes to go live.
+
+## __Credits__
+
+### Code
+- The code for the footer was taken from [Code Institute's](https://codeinstitute.net/) Love running walkthrough project.
+- The code idea for the nav bar was taken from the same above mentioned source. However, there are some style changes to suit my project. 
+
+### Content
+- Some of the techniques for yoga on the yoga poses page was taken from [Insiders health page](https://www.insider.com/guides/health/fitness/yoga-for-beginners)
+- The information in the about section is taken from differeent websites after researching.
+    - The first page where most of the information came form is [Hopkins Medicine](https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga)
+    - Some informations were taken from [Everyday Health](https://www.everydayhealth.com/yoga/big-ways-yoga-can-help-with-your-weight-loss-goals/)
+
+### Media
+- All the images and videos were taken from [Pexels](https://www.pexels.com/).
+- The title icon was taken from [flaticon](https://www.flaticon.com/)
+- The icons for about section were taken from [Font Awesome](https://fontawesome.com/)

@@ -86,6 +86,7 @@ h2 {
 
     padding: 20px 10px 20px 10px;
     margin-left: 10%;
+    margin-right: 5%;
 
     bottom: 200px;
     border-radius: 5px;
@@ -155,7 +156,6 @@ hr {
 #testimonial {
     position: relative;
     background: url('../images/testimonial.jpg') no-repeat center center;
-    opacity: 0.9;
     background-size: cover;
     width: 100%;
     overflow: hidden;

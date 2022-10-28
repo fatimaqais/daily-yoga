@@ -3,9 +3,11 @@ This is a yoga exercise page which is beginner freindly and gives an insight to 
 
 The website has some yoga poses which lets the user try it out at home and then also has join us page which allows them to  join our mailing list which informs them about upcoming classes and some interesting yoga news!
 
+The aim of the project is to build a responsive website using HTML and CSS.
+
 [Live Link to the website](https://fatimaqais.github.io/daily-yoga/)
 
-![Mock up screenshot]()
+![Mock up screenshot](documents/testing/responsive-mockup.png)
 
 ## Features
 
@@ -66,3 +68,32 @@ This page allows the user to join our yoga group and select if the wish to worko
 
 ### Features Left to Implement
 - I would like to add a pricing list page(subscription page) for users who wish to subscribe to a monthly or yearly yoga plan. 
+
+## Testing
+
+### User Testing
+
+- After deploying the site, the website was checked by friends and family on different devices. We did find a problem with the cover text being too close to the right hand side of the page on mobile devices which was fixed later on.
+
+- The website works well on every other device and is responsive to differnt screen size.
+
+### Validator Testing
+
+- HTML
+    - No errors were found when passing the index.html page through the [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ffatimaqais.github.io%2Fdaily-yoga%2Findex.html)
+
+    - No errors were found when passing the yogaposes.html page through the validator [W3C valiadtor](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ffatimaqais.github.io%2Fdaily-yoga%2Fyogaposes.html)
+
+    - No errors were found when passing the joinus.html page through the validator [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ffatimaqais.github.io%2Fdaily-yoga%2Fjoinus.html)
+
+    - No errors were found when passing the thankyou.html page through the validator [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ffatimaqais.github.io%2Fdaily-yoga%2Fthankyou.html)
+
+- CSS 
+    - No errors were found when passing through the official Jigsaw validator
+
+![Jigsaw validator](documents/testing/css-jigsaw-validator.png)
+
+### Performance and Accessibility Testing
+The website was tested for performance and accessibilty using Lighthouse on google chrome's developer tools.
+
+![Lighthouse testing](documents/testing/lighthouse.png)

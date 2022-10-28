@@ -145,4 +145,7 @@ The website was tested for performance and accessibilty using Lighthouse on goog
 
 This website was deployed to GitHub Pages. The steps to deploy are:
 - Log in to git hub
-- Go to the setting for the repository
+- Go to the setting for this repository.
+- Select pages in left hand navigation menu.
+- From the source dropdown, select main branch and then press save.
+- The site will be deployed now. It may take a few minutes to go live.

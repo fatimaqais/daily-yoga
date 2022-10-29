@@ -1,7 +1,9 @@
 # Daily Yoga - Portfolio Project 1
-This is a yoga exercise page which is beginner freindly and gives an insight to what yoga is and how it can have a positive affect on your mind and body.
+This is a yoga exercise page which is beginner friendly yoga exercise page. It gives an insight into what yoga is and how it can have a positive effect on your mind and body.
 
-The website has some yoga poses which lets the user try it out at home and then also has join us page which allows them to  join our mailing list which informs them about upcoming classes and some interesting yoga news!
+The website has some yoga poses which lets the user try them out at home.
+
+It also has a join us page which allows the user to  join our mailing list which informs them about the upcoming classes and gives some interesting yoga news!
 
 The aim of the project is to build a responsive website using HTML and CSS.
 
@@ -13,22 +15,22 @@ The aim of the project is to build a responsive website using HTML and CSS.
 
 ### __User Stories__
 
-- As a user, I would like to see what yoga is and what it looks like which can be seen on the home page.
+- As a user, I would like to see what Yoga is and what it looks like which can be seen on the home page.
 - As a user, I would like to see what people think about the exercise and see some reviews.
-- As a user, I would like to see what yoga poses are like and would like to try them myself.
+- As a user, I would like to see if I can try out the exercise and would also like a some instructions on how to do it.
 - As a user, I would like to sign up for yoga classes and yoga related news and updates.
 
 ### __Color Scheme__
 
 - The color scheme for this page was taken from [coolors](https://coolors.co/palette/fffaf5-95a78d-3a4336-d88f81).
-Some colors were adjusted accordingly to improve visibility.
+Some colours were adjusted accordingly to improve visibility.
 
 ![coolors color palette](documents/testing/coolors.png)
 
 ### __Typography__
 
 - The font for this page was taken from [google fonts](https://fonts.google.com/)
-    - The font sintony was used for headings whereas the body has the poppins font.
+    - The font Sintony was used for headings, whereas the body has the poppins font.
 
 ![Sintony](documents/testing/sintony-font.png) 
 ![Poppins](documents/testing/poppins-font.png)
@@ -44,17 +46,17 @@ Some colors were adjusted accordingly to improve visibility.
 These features are on every page of the website for a consistent design
 
 -__Logo and Navigation Bar__
-- The logo can be clicked to bring you back to the home and the navigation menu takes you to the correct pages. This is responsive on every screen size. The logo has a simple design.
+- The logo can be clicked to bring you back to the home and the navigation menu takes you to the correct pages. This is responsive on every screen size. The logo has a simple design and the nave bar 
 
 ![Logo and navigation bar](documents/images/nav-bar.png)
 
 -__Main Image__
-- The main image stays the same on every page however it adjusts size and changes aspect ratio depending on the screen size. It contains a text box which changes text for each page and displays message on what the page is about.
+- The main image stays the same on every page however the size and aspect ratio changes depending on the screen size. It contains a text box which changes text for each page and displays a message on what the page is about.
 
 ![Main image](documents/images/main-image.png)
 
 -__Footer__
-- The footer stays the same on every page however it does change shape and size for a responsive design for differnt devices.
+- The footer stays the same on every page however it does change shape and size for a responsive design for different devices. It has social media icons which open in a new tab.
 
 ![Footer](documents/images/footer.png)
 
@@ -64,38 +66,43 @@ These features are on every page of the website for a consistent design
 ![Icon](documents/images/icon.png)
 
 ### Home Page
- Landing page for the site. User will see the main image with cover text which shows what the site is about. and by scrolling down they will see the about section and then the testimonial.
+ Landing page for the site. Users will see the main image with cover text which shows what the site is about. By scrolling down they will see the about section and then the testimonial.
 
  ![Full Home Page](documents/images/home-page.png)
 
--__About__
-- This tells the user what yoga is and how it can benefit the users body and mind. On the right there is an image of a girl doing yoga to give a glance of what the workout looks like.
+- __About__
+    - This tells the user what yoga is and how it can benefit the users body and mind. On the right, is an image of a girl doing yoga.
 
 ![About section image](documents/images/about-section.png)
 
--__Testimonials__
-- This contains statement from previous users who have tried the workout and left a positive review. This can help convince the users to  try out the exercise if they havent done it before.
+- __Testimonials__
+    - This contains testimonials from previous users who have tried the workout and left a positive review. This can help convince the users to try the exercise if they haven't done it before.
 
 ![Testimonial image](documents/images/testimonial.png)
 
 ### Yoga Poses Page
-This page includes videos for users who want to try out the exercise at home. It includes simple poses with instructions on how to do it.
+This page includes videos for users who want to try out the exercise at home. It includes simple poses with instructions on how to do them.
 
--__Videos__
-- Videos are aligned in 2 columns with 3 rows, each row holds 2 videos and on smaller devices the videos are aligned in the center individually.
+- __Videos__
+    - Videos are aligned in 2 columns with 3 rows, each row holds 2 videos and on smaller devices, the videos are aligned in the center individually.
 
 ![Poses videos](documents/images/yogaposes-page.png)
 
 ### Join Us Page
-This page allows the user to join our yoga group and select if the wish to workout in a group or by themselves.
+This page allows the users to join our yoga group and select if they wish to work out in a group or by themselves.
 
--__Form__
-- The form asks the user to enter their name, email and choose an option for the type fo workout they would like to do. When submiting details users are directed to a Thank you Page.
+- __Form__
+    - The form asks the users to enter their name, email and choose an option for the type of workout they would like to do. When submitting details users are directed to a Thank you Page.
 
 ![Form Section Image](documents/images/form-page.png)
 
+### Thank you Page
+This page displays a thankyou message after the users have submitted their form. I has a button that takes the users back to the home page.
+
+![Thank you page](documents/images/thankyou-page.png)
+
 ### Features Left to Implement
-- I would like to add a pricing list page(subscription page) for users who wish to subscribe to a monthly or yearly yoga plan. 
+- I would like to add a pricing list page(subscription page) for users who wish to subscribe to a monthly or yearly yoga plan.
 
 ## __Technologies Used__
 
@@ -107,7 +114,7 @@ This page allows the user to join our yoga group and select if the wish to worko
 
 - [Balsamiq](https://balsamiq.com/) was used to create the wireframes for this project.
 - [Git](https://git-scm.com/) was used for version control.
-- [Github](https://github.com/) was used to save and store for the website.
+- [Github](https://github.com/) was used to save and store project's code.
 - [Google Fonts](https://fonts.google.com/) was used to import the fonts used on the website.
 - [Font Awesome](https://fontawesome.com/) was used for the icons on this page.
 - [Flaticon](https://www.flaticon.com/) was used to find the icon for the title.
@@ -116,9 +123,15 @@ This page allows the user to join our yoga group and select if the wish to worko
 
 ### User Testing
 
-- After deploying the site, the website was checked by friends and family on different devices. We did find a problem with the cover text being too close to the right hand side of the page on mobile devices which was fixed later on.
+- After deploying the site, the website was checked by friends and family on different devices.
 
-- The website works well on every other device and is responsive to differnt screen size.
+- The website works well on every other device and is responsive to different screen sizes.
+
+- The site was tested on different browsers like Chrome, Edge and Firefox. The site had no issues across all browsers. 
+
+- The footer links work perfectly and open on a new page.
+
+- Once the form is submitted it displays a thank you message. The button on thank yo page also works fine and takes the users back to home page.
 
 ### Validator Testing
 

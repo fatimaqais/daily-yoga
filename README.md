@@ -157,11 +157,21 @@ The website was tested for performance and accessibilty using Lighthouse on goog
 ## __Deployement__
 
 This website was deployed to GitHub Pages. The steps to deploy are:
-- Log in to git hub
+- Log in to GitHub
 - Go to the setting for this repository.
 - Select pages in left hand navigation menu.
 - From the source dropdown, select main branch and then press save.
 - The site will be deployed now. It may take a few minutes to go live.
+
+### Local Deployement
+To fork this repository, follow these steps:
+- Log in to GitHub
+- Go to the repository, https://github.com/fatimaqais/daily-yoga
+- On the top right corner, click on the button that says fork.
+
+To clone this repository, copy the command below and paste it in your terminal:
+
+- ` https://github.com/fatimaqais/daily-yoga.git `
 
 ## __Credits__
 
